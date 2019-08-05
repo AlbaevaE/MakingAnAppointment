@@ -25,6 +25,7 @@ public class User {
     @Column(name="email",nullable = false)
     private String email;
     @Column(name="password",nullable = false,unique = true)
+    @JsonIgnore
     private String password;
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name = "user_role",
