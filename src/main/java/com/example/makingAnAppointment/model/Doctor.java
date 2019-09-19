@@ -19,14 +19,12 @@ public class Doctor {
     private Long id;
     @Column(name = "doctor_name", nullable = false)
     private String doctorName;
-    @Column(name = "specialization", nullable = false)
-    private String specialization;
+    @OneToOne
+    @JoinColumn(name = "specialty_id")
+    private Specialty specialties;
     //    @Column(name="experience",nullable = false)
 //    private String experience;
     @Column(name = "office", nullable = true)
     private Integer office;
-    @OneToOne
-    @JoinColumn(name = "specialty_id")
-    @JsonIgnore
-    private Set<Specialty> specialties;
+
 }

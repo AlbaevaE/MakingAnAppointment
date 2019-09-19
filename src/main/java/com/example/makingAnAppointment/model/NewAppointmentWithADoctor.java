@@ -1,11 +1,12 @@
 package com.example.makingAnAppointment.model;
 
-import com.example.makingAnAppointment.enums.Appointment;
+import com.example.makingAnAppointment.enums.AppointmentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Data
 @NoArgsConstructor
@@ -16,7 +17,13 @@ public class NewAppointmentWithADoctor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @JoinColumn(name="user_id")
+    private User user;
+    @JoinColumn(name="doctor_id")
+    private Doctor doctor;
+    private LocalDateTime time;
     @Enumerated(EnumType.STRING)
-    private Appointment appointment;
+    private AppointmentStatus appointment;
+
 
 }

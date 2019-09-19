@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27bc76e4-7783-4f80-a990-15e47ae7fe32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/service/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/AppointmentHistory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/enums/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/enums/AppointmentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/NewAppointmentWithADoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/NewAppointmentWithADoctor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -113,7 +117,7 @@
       <workItem from="1568529801184" duration="1319000" />
       <workItem from="1568869550055" duration="257000" />
       <workItem from="1568870315904" duration="229000" />
-      <workItem from="1568873962000" duration="6657000" />
+      <workItem from="1568873962000" duration="10956000" />
     </task>
     <task id="LOCAL-00001" summary="create User">
       <created>1564497197340</created>
@@ -150,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568880586627</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created GenericService">
+      <created>1568880981216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568880981216</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +190,7 @@
     <MESSAGE value="created Appointment, NewAppointmentWithADoctor, Specialty" />
     <MESSAGE value="created Appointment, NewAppointmentWithADoctor, Specialty&#10;+docker-compose.yml" />
     <MESSAGE value="created repositories" />
-    <option name="LAST_COMMIT_MESSAGE" value="created repositories" />
+    <MESSAGE value="created GenericService" />
+    <option name="LAST_COMMIT_MESSAGE" value="created GenericService" />
   </component>
 </project>
