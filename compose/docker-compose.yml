@@ -14,5 +14,5 @@ services:
     container_name: mk_appointment_postgres
 
 volumes:
-  zenfood_postgres_data:
+  mk_appointment_postgres_data:
     driver: local
