@@ -1,12 +1,12 @@
 version: '3.1'
 
 services:
-  zenfood_postgres:
+  mk_appointment_postgres:
     image: postgres:9.6-alpine
     volumes:
       - mk_appointment_postgres_data:/var/lib/postgresql/data
     ports:
-      - 5456:5432
+      - 5434:5432
     environment:
       POSTGRES_DB: mk_appointment
       POSTGRES_USER: postgres
