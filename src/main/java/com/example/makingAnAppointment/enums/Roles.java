@@ -4,4 +4,7 @@ public enum Roles {
     USER,
     ADMIN,
     DOCTOR;
+
+    Roles() {
+    }
 }
