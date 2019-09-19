@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27bc76e4-7783-4f80-a990-15e47ae7fe32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compose/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/enums/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/NewAppointmentWithADoctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/Specialty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/repository/DoctorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/repository/NewAppointmentWithADoctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/enums/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/enums/Roles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/Doctor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +34,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -119,7 +114,7 @@
       <workItem from="1568529801184" duration="1319000" />
       <workItem from="1568869550055" duration="257000" />
       <workItem from="1568870315904" duration="229000" />
-      <workItem from="1568873962000" duration="4440000" />
+      <workItem from="1568873962000" duration="6102000" />
     </task>
     <task id="LOCAL-00001" summary="create User">
       <created>1564497197340</created>
@@ -142,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564989753790</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created Appointment, NewAppointmentWithADoctor, Specialty&#10;+docker-compose.yml">
+      <created>1568878777406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568878777406</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +170,8 @@
     <MESSAGE value="create User" />
     <MESSAGE value="create enum-Roles and model-Role" />
     <MESSAGE value="add @JsonIgnore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add @JsonIgnore" />
+    <MESSAGE value="created Appointment, NewAppointmentWithADoctor, Specialty" />
+    <MESSAGE value="created Appointment, NewAppointmentWithADoctor, Specialty&#10;+docker-compose.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="created Appointment, NewAppointmentWithADoctor, Specialty&#10;+docker-compose.yml" />
   </component>
 </project>
