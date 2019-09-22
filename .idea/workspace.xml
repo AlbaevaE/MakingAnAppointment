@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27bc76e4-7783-4f80-a990-15e47ae7fe32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/AppointmentHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/MedicalTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/enums/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/enums/AppointmentStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/NewAppointmentWithADoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/NewAppointmentWithADoctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/User.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +116,7 @@
       <workItem from="1568869550055" duration="257000" />
       <workItem from="1568870315904" duration="229000" />
       <workItem from="1568873962000" duration="10956000" />
+      <workItem from="1569148814305" duration="2274000" />
     </task>
     <task id="LOCAL-00001" summary="create User">
       <created>1564497197340</created>
