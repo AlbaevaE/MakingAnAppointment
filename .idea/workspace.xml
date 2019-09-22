@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27bc76e4-7783-4f80-a990-15e47ae7fe32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/MedicalHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/Diagnosis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/Prescription.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/MedicalHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/MedicalHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/makingAnAppointment/model/User.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +117,7 @@
       <workItem from="1568869550055" duration="257000" />
       <workItem from="1568870315904" duration="229000" />
       <workItem from="1568873962000" duration="10956000" />
-      <workItem from="1569148814305" duration="2896000" />
+      <workItem from="1569148814305" duration="4211000" />
     </task>
     <task id="LOCAL-00001" summary="create User">
       <created>1564497197340</created>
@@ -165,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569151180407</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="created MedicalHistory">
+      <created>1569151943575</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569151943575</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +206,7 @@
     <MESSAGE value="created repositories" />
     <MESSAGE value="created GenericService" />
     <MESSAGE value="created MedicalTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="created MedicalTests" />
+    <MESSAGE value="created MedicalHistory" />
+    <option name="LAST_COMMIT_MESSAGE" value="created MedicalHistory" />
   </component>
 </project>

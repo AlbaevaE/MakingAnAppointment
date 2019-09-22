@@ -34,6 +34,9 @@ public class User {
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     @JsonIgnore
     private Set<Role> roles;
+    @OneToOne
+    @JoinColumn(name="history_id")
+    private MedicalHistory history;
 //    @OneToMany
 //    @JoinColumn(name="test_id")
 //    private List<MedicalTests> testsList;
